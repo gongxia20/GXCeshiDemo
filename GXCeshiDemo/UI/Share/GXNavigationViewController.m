@@ -1,24 +1,22 @@
 //
-//  PlanetViewController.m
+//  GXNavigationViewControllerr.m
 //  GXCeshiDemo
 //
-//  Created by James on 2018/9/18.
+//  Created by James on 2018/9/19.
 //  Copyright © 2018年 TZ. All rights reserved.
 //
 
-#import "PlanetViewController.h"
+#import "GXNavigationViewController.h"
 
-@interface PlanetViewController ()
+@interface GXNavigationViewController ()
 
 @end
 
-@implementation PlanetViewController
+@implementation GXNavigationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
-
 }
 
 - (void)didReceiveMemoryWarning {

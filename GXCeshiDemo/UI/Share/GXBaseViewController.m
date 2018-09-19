@@ -16,7 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *btn = [UIButton new];
+    btn.frame = CGRectMake(100, 100, 200, 200);
+    btn.backgroundColor = [UIColor whiteColor];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)btnClick:(UIButton *)sender {
+    GXBaseViewController *baseVC = [GXBaseViewController new];
+    // 隐藏push出来的tabbar
+    baseVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:baseVC animated:YES];
 }
 
 @end

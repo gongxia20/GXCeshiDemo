@@ -12,13 +12,14 @@
 		1A38191C2150C67800AA911E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A38190F2150C67700AA911E /* LaunchScreen.storyboard */; };
 		1A38191D2150C67800AA911E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3819112150C67700AA911E /* Main.storyboard */; };
 		1A38191E2150C67800AA911E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819132150C67700AA911E /* main.m */; };
-		1A38191F2150C67800AA911E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819152150C67700AA911E /* MainViewController.m */; };
+		1A38191F2150C67800AA911E /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819152150C67700AA911E /* MainTabBarController.m */; };
 		1A3819202150C67800AA911E /* GXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819192150C67700AA911E /* GXBaseViewController.m */; };
-		1A3819232150C72300AA911E /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819222150C72300AA911E /* DiscoveryViewController.m */; };
 		1A3819262150C73F00AA911E /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819252150C73F00AA911E /* HomePageViewController.m */; };
 		1A3819292150C7CC00AA911E /* VIPMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819282150C7CC00AA911E /* VIPMemberViewController.m */; };
 		1A38192C2150C7EC00AA911E /* PlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A38192B2150C7EC00AA911E /* PlanetViewController.m */; };
 		1A38192F2150C7F600AA911E /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A38192E2150C7F600AA911E /* MyPageViewController.m */; };
+		1A3819992152950500AA911E /* GXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3819982152950500AA911E /* GXNavigationViewController.m */; };
+		1A38199C21529FC100AA911E /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A38199B21529FC100AA911E /* DiscoveryViewController.m */; };
 		1A641AF9214FA222008B5DC2 /* image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A641AF8214FA222008B5DC2 /* image.bundle */; };
 /* End PBXBuildFile section */
 
@@ -31,12 +32,10 @@
 		1A3819102150C67700AA911E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A3819122150C67700AA911E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3819132150C67700AA911E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A3819142150C67700AA911E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		1A3819152150C67700AA911E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1A3819142150C67700AA911E /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		1A3819152150C67700AA911E /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		1A3819182150C67700AA911E /* GXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXBaseViewController.h; sourceTree = "<group>"; };
 		1A3819192150C67700AA911E /* GXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXBaseViewController.m; sourceTree = "<group>"; };
-		1A3819212150C72300AA911E /* DiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
-		1A3819222150C72300AA911E /* DiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
 		1A3819242150C73F00AA911E /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		1A3819252150C73F00AA911E /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		1A3819272150C7CC00AA911E /* VIPMemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPMemberViewController.h; sourceTree = "<group>"; };
@@ -45,6 +44,10 @@
 		1A38192B2150C7EC00AA911E /* PlanetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetViewController.m; sourceTree = "<group>"; };
 		1A38192D2150C7F600AA911E /* MyPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
 		1A38192E2150C7F600AA911E /* MyPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
+		1A3819972152950500AA911E /* GXNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXNavigationViewController.h; sourceTree = "<group>"; };
+		1A3819982152950500AA911E /* GXNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXNavigationViewController.m; sourceTree = "<group>"; };
+		1A38199A21529FC100AA911E /* DiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		1A38199B21529FC100AA911E /* DiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
 		1A641AF8214FA222008B5DC2 /* image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = image.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,8 +106,8 @@
 		1A3819092150C67700AA911E /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
-				1A3819212150C72300AA911E /* DiscoveryViewController.h */,
-				1A3819222150C72300AA911E /* DiscoveryViewController.m */,
+				1A38199A21529FC100AA911E /* DiscoveryViewController.h */,
+				1A38199B21529FC100AA911E /* DiscoveryViewController.m */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -135,8 +138,8 @@
 				1A38190F2150C67700AA911E /* LaunchScreen.storyboard */,
 				1A3819112150C67700AA911E /* Main.storyboard */,
 				1A3819132150C67700AA911E /* main.m */,
-				1A3819142150C67700AA911E /* MainViewController.h */,
-				1A3819152150C67700AA911E /* MainViewController.m */,
+				1A3819142150C67700AA911E /* MainTabBarController.h */,
+				1A3819152150C67700AA911E /* MainTabBarController.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -155,6 +158,8 @@
 			children = (
 				1A3819182150C67700AA911E /* GXBaseViewController.h */,
 				1A3819192150C67700AA911E /* GXBaseViewController.m */,
+				1A3819972152950500AA911E /* GXNavigationViewController.h */,
+				1A3819982152950500AA911E /* GXNavigationViewController.m */,
 			);
 			path = Share;
 			sourceTree = "<group>";
@@ -240,15 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3819992152950500AA911E /* GXNavigationViewController.m in Sources */,
 				1A38191E2150C67800AA911E /* main.m in Sources */,
-				1A38191F2150C67800AA911E /* MainViewController.m in Sources */,
+				1A38191F2150C67800AA911E /* MainTabBarController.m in Sources */,
 				1A3819262150C73F00AA911E /* HomePageViewController.m in Sources */,
 				1A3819202150C67800AA911E /* GXBaseViewController.m in Sources */,
 				1A38192C2150C7EC00AA911E /* PlanetViewController.m in Sources */,
 				1A38191B2150C67800AA911E /* AppDelegate.m in Sources */,
 				1A38192F2150C7F600AA911E /* MyPageViewController.m in Sources */,
-				1A3819232150C72300AA911E /* DiscoveryViewController.m in Sources */,
 				1A3819292150C7CC00AA911E /* VIPMemberViewController.m in Sources */,
+				1A38199C21529FC100AA911E /* DiscoveryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

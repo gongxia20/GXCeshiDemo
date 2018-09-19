@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  MainTabBarController.h
 //  GXCeshiDemo
 //
 //  Created by James on 2018/9/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UITabBarController
+@interface MainTabBarController : UITabBarController
 
 @end
