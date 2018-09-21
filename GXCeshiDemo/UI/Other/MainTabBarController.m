@@ -39,6 +39,7 @@
         UIViewController *vc = self.viewControllers[i];
         vc.tabBarItem.title = array[i];
     }
+    NSLog(@"---");
 }
 
 @end
