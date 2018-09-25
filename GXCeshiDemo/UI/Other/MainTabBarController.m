@@ -21,9 +21,7 @@
 @implementation MainTabBarController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
+    [super viewDidLoad];    
     // 1.设置数组
     NSArray *array = @[@"首页", @"发现", @"VIP会员",@"星球",@"我的"];
     
